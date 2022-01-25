@@ -1,0 +1,58 @@
+body {
+    background-color: lightcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2%;
+}
+
+header { 
+    background-image: url("../images/book-gecb97ee21_1920.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 20px;
+}
+
+a {
+    color: black;
+    font-weight: 600;
+}
+
+#om-oss {
+    text-align: center;
+}
+
+#erbjudande {
+    text-align: center;
+    background-image: url("../images/pexels-lukas-628241.jpg");
+    padding: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    border-style:groove;
+    box-shadow: 10px 10px 20px gray;
+}
+
+#kontakt {
+    text-align:end;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(138, 43, 226, 0.2);
+    border: 5px solid black;
+    padding: 20px;
+}
+
+
+.menylista {
+    list-style-type: circle;
+}
+
+.disclamer {
+    text-align: center;
+    font-size: 15px;
+    color: red;
+}
+
+.stark-kvinna {
+    border-radius: 50%;
+}
