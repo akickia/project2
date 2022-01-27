@@ -5,7 +5,7 @@ body {
 }
 
 header { 
-    background-image: url("../images/book-gecb97ee21_1920.jpg"); 
+    background-image: url("../images/books.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -17,19 +17,31 @@ a {
     font-weight: 600;
 }
 
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: blue;
+}
+
 #om-oss {
     text-align: center;
 }
 
 #erbjudande {
     text-align: center;
-    background-image: url("../images/pexels-lukas-628241.jpg");
-    padding: 2%;
+    background-image: url("../images/background-leaves.jpg");
+    padding: 2% 20%;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 2px;
     border-style:groove;
     box-shadow: 10px 10px 20px gray;
+}
+
+#priser h3, #priser h5 {
+    color:rgba(4, 2, 133)
 }
 
 #kontakt {
@@ -42,6 +54,13 @@ a {
     padding: 20px;
 }
 
+#kontakt a {
+    color: black
+}
+
+#kontakt a:hover {
+    color: red
+}
 
 .menylista {
     list-style-type: circle;
@@ -54,5 +73,7 @@ a {
 }
 
 .stark-kvinna {
+    width: 25%; 
+    height: 25%;
     border-radius: 50%;
 }
